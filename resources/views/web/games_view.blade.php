@@ -19,6 +19,6 @@
 	    width: 100vw;
 	}
 </style>
-<iframe src="https://games.fafu.ge/games/{{ $game_name }}"></iframe>
+<iframe src="https://games.fafu.ge/{{ $game_name }}"></iframe>
 </body>
 </html>
