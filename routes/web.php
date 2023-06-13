@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [App\Http\Controllers\WebControllers\MainController::class, 'actionWebMain'])->name('actionWebMain');
+Route::get('/book', [App\Http\Controllers\WebControllers\MainController::class, 'actionWebBook'])->name('actionWebBook');
+Route::get('/games', [App\Http\Controllers\WebControllers\MainController::class, 'actionWebGames'])->name('actionWebGames');
+Route::get('/games/play/{game}', [App\Http\Controllers\WebControllers\MainController::class, 'actionWebGamesView'])->name('actionWebGamesView');
