@@ -57,7 +57,7 @@
 	    loop:true,
 	    margin: 20,
 	    responsiveClass:true,
-	    autoHeight:true,
+	    autoHeight:false,
 	    responsive:{
 	        0:{
 	            items:1,
