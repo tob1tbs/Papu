@@ -1,5 +1,16 @@
 @extends('web.layout')
 
 @section('content')
-not valid
+<style type="text/css">
+	body {
+		margin: 0;
+		padding: 0;
+		background: url('assets/images/back_1.png');
+		background-size: cover;
+	}
+
+	.custom-header {
+	    background: transparent !important;
+	}
+</style>
 @endsection

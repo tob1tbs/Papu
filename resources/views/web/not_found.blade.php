@@ -5,8 +5,12 @@
 	body {
 		margin: 0;
 		padding: 0;
-		background: url('assets/images/back_1.png');
+		background: url('assets/images/back_2.png');
 		background-size: cover;
+	}
+
+	.custom-header {
+	    background: transparent !important;
 	}
 </style>
 @endsection
