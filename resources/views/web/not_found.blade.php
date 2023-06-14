@@ -5,6 +5,7 @@
 	body {
 		margin: 0;
 		padding: 0;
+		height: 100%;
 		background: url('assets/images/back_2.png');
 		background-size: cover;
 	}
