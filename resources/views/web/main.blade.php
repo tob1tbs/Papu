@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container" style="max-width: 100%;">
-	<div>
+	<div style="height: 100vh; display: flex; align-items: center;">
 		<div class="owl-carousel">
 			<div>
 				<a href="{{ route('actionWebGames') }}?hash={{ request()->hash }}">

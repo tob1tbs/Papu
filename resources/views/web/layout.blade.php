@@ -28,7 +28,7 @@
 	    border-radius: 25px;
 	    position: absolute;
 	    left: 50px;
-	    bottom: 140px;
+	    bottom: 50%;
 	}
 
 	.owl-next {
@@ -38,7 +38,7 @@
 	    border-radius: 25px;
 	    position: absolute;
 	    right: 50px;
-	    bottom: 140px;
+	    bottom: 50%;
 	}
 
 	.owl-next span, .owl-prev span {
