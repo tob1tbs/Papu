@@ -11,6 +11,13 @@
 	<link rel="stylesheet" href="{{ asset('assets/owlcarousel/owl.theme.default.min.css')}}">
 </head>
 <body>
+<nav class="navbar navbar-light bg-light custom-header">
+  <div class="container" style="max-width: calc(100% - 2*30px);">
+    <a class="navbar-brand" href="{{ route('actionWebMain') }}">
+      <img src="{{ asset('assets/images/logotype.png')}}" alt="" style="height: 80px;">
+    </a>
+  </div>
+</nav>
 @yield('content')
 <style type="text/css">
 	.custom-header {
