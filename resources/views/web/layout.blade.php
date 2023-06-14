@@ -27,7 +27,7 @@
 	    background: rgba(0,0,0,0.3) !important;
 	    border-radius: 25px;
 	    position: absolute;
-	    left: 50px;
+	    left: 20px;
 	    bottom: 50%;
 	}
 
@@ -37,7 +37,7 @@
 	    background: rgba(0,0,0,0.3) !important;
 	    border-radius: 25px;
 	    position: absolute;
-	    right: 50px;
+	    right: 20px;
 	    bottom: 50%;
 	}
 
