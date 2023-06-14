@@ -24,12 +24,13 @@
     @endif
   </div>
 </nav>
+<style type="text/css">
+		.custom-header {
+			background: #fff !important;
+		}
+</style>
 @yield('content')
 <style type="text/css">
-	.custom-header {
-		background: #fff !important;
-	}
-
 	.custom-header, .navbar-brand {
 		padding: 0;
 	}
