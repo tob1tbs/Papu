@@ -9,8 +9,8 @@
 	    background-position: center;
 	    background-repeat: no-repeat;
 	    background-size: cover;
-		height: 100%;
 		background: url('assets/images/back_1.png');
+		height: 100%;
 	}
 
 	.custom-header {
