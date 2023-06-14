@@ -13,9 +13,15 @@
 <body>
 <nav class="navbar navbar-light bg-light custom-header">
   <div class="container" style="max-width: calc(100% - 2*30px);align-items: center;display: flex;justify-content: center;margin-top: 10px; margin-bottom: 10px;">
-    <a class="navbar-brand" href="{{ route('actionWebMain') }}">
+  	@if(!empty(request()->hash))
+    <a class="navbar-brand" href="{{ route('actionWebMain') }}?hash={{ request()->hash }}">
       <img src="{{ asset('assets/images/logotype.png')}}" alt="" style="height: 80px;">
     </a>
+    @else
+		<a class="navbar-brand" href="{{ route('actionWebMain') }}">
+      <img src="{{ asset('assets/images/logotype.png')}}" alt="" style="height: 80px;">
+    </a>
+    @endif
   </div>
 </nav>
 @yield('content')
