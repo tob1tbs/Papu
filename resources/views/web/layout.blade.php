@@ -46,15 +46,6 @@
     font-size: 60px;
     line-height: 30px;
 	}
-
-	.owl-carousel .owl-stage {
-	  display: flex;
-	  align-items: center;
-	}
-
-	.owl-carousel .caption {
-	  text-align: center;
-	}
 </style>
 </body>
 <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
@@ -65,6 +56,7 @@
 	var owl = $('.owl-carousel');
 	owl.owlCarousel({
 	    loop:true,
+	    center:true,
 	    margin: 20,
 	    responsiveClass:true,
 	    autoHeight:false,
