@@ -1,13 +1,16 @@
 @extends('web.layout')
 
 @section('content')
+<div class="background"></div>
 <style type="text/css">
-	body {
-		margin: 0;
-		padding: 0;
+	
+	.background {
+		position: relative;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
 		height: 100%;
 		background: url('assets/images/back_1.png');
-		background-size: cover;
 	}
 
 	.custom-header {
